@@ -17,7 +17,7 @@ public class Main {
 
     public static void main(String[] args) {
         EntityManagerFactory entityManagerFactory = Persistence
-                .createEntityManagerFactory("PaymentInfo");
+                .createEntityManagerFactory("persistenceUnit");
 
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         EntityTransaction transaction = entityManager.getTransaction();
