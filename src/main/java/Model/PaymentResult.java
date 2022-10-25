@@ -4,7 +4,6 @@ import Payments.PaymentStatus;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "PaymentResult")
 public class PaymentResult {
 
     @Column(name = "status")
