@@ -5,7 +5,6 @@ import jakarta.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "ReceivingPayment")
 public class ReceivingPayment
 {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -13,15 +12,15 @@ public class ReceivingPayment
     @Column(name = "SenderId")
     private int SenderId;
 
-    @Column(name = "comment")
+    @Column(name = "PaymentComment")
     private String PaymentComment;
 
     @Column(name = "amount")
     private float Amount;
 
-    @Column(name = "method")
+    @Column(name = "PaymentMethod")
     String PaymentMethod;
 
-    @Column(name = "date")
+    @Column(name = "PaymentDate")
     Date PaymentDate;
 }
