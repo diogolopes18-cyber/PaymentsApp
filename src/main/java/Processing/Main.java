@@ -15,7 +15,7 @@ public class Main {
         payment.setPaymentcomment("test");
     }
 
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         EntityManagerFactory entityManagerFactory = Persistence
                 .createEntityManagerFactory("PaymentInfo");
 
