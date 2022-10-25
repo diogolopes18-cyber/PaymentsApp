@@ -6,7 +6,7 @@
 
     <groupId>com.example</groupId>
     <artifactId>Payments</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <name>Payments</name>
 
     <properties>
